@@ -107,6 +107,15 @@
 
 			<label for="outputText">鶏語</label>
 			<textarea id="outputText" readonly placeholder="ここに翻訳結果が表示されます"></textarea>
+
+			<label for="chickenInput">鶏語（逆変換用）</label>
+			<input id="chickenInput" type="text" placeholder="鶏語を入力（例: コーケッ  ケー）">
+
+			<button type="button" id="reverseButtonJP">逆変換（日本語優先）</button>
+			<button type="button" id="reverseButtonEN">逆変換（英語優先）</button>
+
+			<label for="reverseOutput">復元結果（人間語）</label>
+			<textarea id="reverseOutput" readonly placeholder="ここに逆変換の結果が表示されます"></textarea>
 		</section>
         <script type="text/javascript" src="js/chicken.js"></script>
 	</main>
